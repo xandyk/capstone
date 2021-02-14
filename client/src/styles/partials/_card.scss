@@ -1,0 +1,78 @@
+.card-container {
+  margin-top: 50px;
+}
+
+.card-wrap {
+  margin-top: 50px;
+}
+
+.card {
+  margin: unset;
+  margin: 50px 0;
+}
+// address font size
+.card-title.grey-text.text-darken-4 {
+  font-size: 12px;
+}
+
+// photo width and height
+
+// .card.col.s12 {
+//   margin: unset;
+//   margin: 10px;
+//   //   border-radius: unset;
+// }
+
+.activator {
+  width: 100%;
+}
+
+@include medium {
+  .card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 3.25vw;
+    margin-top: 30px;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    width: 45%;
+    margin: unset;
+  }
+
+  // .waves-effect.waves-block.waves-light {
+  //   height: 40vh;
+  // }
+
+  .card-title.grey-text.text-darken-4 {
+    font-size: 16px;
+  }
+
+  .activator {
+    margin: unset;
+    width: 100%;
+  }
+}
+
+@include large {
+  .card-container {
+    margin: 5px;
+  }
+
+  .card-wrap {
+    width: 80%;
+    margin: unset;
+    margin: 90px 10vw;
+  }
+
+  .card {
+    width: 25vw;
+    height: 480px;
+    margin: 45px;
+  }
+
+  .card-title.grey-text.text-darken-4 {
+    font-size: 14px;
+  }
+}

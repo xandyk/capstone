@@ -1,0 +1,29 @@
+.nav-wrapper {
+  width: 100vw;
+  background-color: $orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.item-container {
+  display: none;
+}
+
+@include medium {
+  .item-container {
+    display: unset;
+    margin-left: 26vw;
+  }
+}
+
+@include large {
+  .item-container {
+    margin-left: 52vw;
+  }
+}

@@ -1,0 +1,45 @@
+.MuiBottomNavigation-root.makeStyles-root-1 {
+  width: 100%;
+}
+
+.nav-wrap {
+  width: 80;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: 80px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.nav-link {
+  background-color: #e6ebe0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/*<---------- Tablet Size ----------> */
+
+@include medium {
+  .button {
+    width: 192px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .MuiBottomNavigation-root.makeStyles-root-1 {
+    display: none;
+  }
+}
+
+/*<---------- Desktop Size ----------> */
+
+@include large {
+  .MuiBottomNavigation-root.makeStyles-root-1 {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+.window-container {
+  max-width: 120vw;
+  max-height: 100vh;
+}
+
+.art-photo {
+  width: 40vw;
+  height: 90px;
+}
+
+.map-container {
+}
+
+@include medium {
+  .art-photo {
+    width: 20vw;
+    height: 140px;
+  }
+}
+
+@include large {
+  .art-photo {
+    width: 28vw;
+    height: 260px;
+  }
+}

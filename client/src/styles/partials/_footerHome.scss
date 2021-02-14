@@ -1,0 +1,148 @@
+.page-footer {
+  padding: 32px 0 0 10vw;
+}
+
+.logo-footer {
+  transform: scale(0.9);
+  margin-right: 0;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.brand-name {
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.footer-wrap {
+  line-height: 1.5;
+  display: flex;
+  margin-left: 7vw;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-title {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.footer-address,
+.footer-tel {
+  font-size: 13px;
+}
+
+.footer-tel {
+  margin-bottom: 25px;
+}
+
+.footer-title.social {
+  margin-top: 15px;
+}
+
+.social-account {
+  display: inline-block;
+  margin-right: 10vw;
+  margin-top: 5px;
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+.social-wrap {
+  padding-bottom: 15px;
+}
+
+.logo-footer {
+  margin-right: 3vw;
+  padding-bottom: 4px;
+}
+
+.section {
+  background-color: $froly;
+  padding-left: 10vw;
+}
+
+.copyright {
+  color: white;
+  font-size: 11px;
+}
+
+/* <---------- Tablet size ----------> */
+
+@include medium {
+  .page-footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .brand-name {
+    margin-left: 5px;
+    font-size: 24px;
+  }
+
+  .office-social {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 12vw;
+  }
+
+  .logo-footer {
+    margin-right: unset;
+  }
+
+  .footer-title {
+    margin-top: unset;
+  }
+
+  .footer-title.social {
+    margin-top: unset;
+    margin-bottom: 20px;
+  }
+
+  .social-wrap {
+    margin-left: 10vw;
+  }
+
+  .social-account {
+    margin-top: unset;
+    margin-right: 5vw;
+  }
+
+  .copyright {
+    color: white;
+    font-size: 11px;
+  }
+}
+
+/* <---------- Desktop size ----------> */
+
+@include large {
+  .footer-logo {
+    transform: scale(1);
+  }
+
+  .footer-title {
+    font-size: 16px;
+  }
+
+  .footer-address,
+  .footer-tel {
+    font-size: 16px;
+  }
+  .social-account {
+    transform: scale(1.2);
+    margin-right: 2vw;
+  }
+
+  .copyright {
+    color: white;
+    font-size: 14px;
+  }
+}

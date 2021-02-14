@@ -1,0 +1,32 @@
+@import "./partials/breakpoints";
+@import "./partials/colors";
+@import "./partials/home";
+@import "./partials/marker";
+@import "./partials/map";
+@import "./partials/about";
+@import "./partials/navbar";
+@import "./partials/card";
+@import "./partials/form";
+@import "./partials/bottomNav";
+@import "./partials/footerHome";
+
+html,
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.8rem;
+
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
