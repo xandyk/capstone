@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   console.log("Hii");
 });
 
-app.use("/artworks", require("./routes/artowrks"));
+app.use("/artworks", require("./routes/artworks")); 
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, (req, res) => [
