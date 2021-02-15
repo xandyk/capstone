@@ -25,7 +25,7 @@ export default class Footer extends Component {
 
             <div className="social-wrap">
               <h6 className="footer-title social">SOCIAL</h6>
-              <a href="https://www.instagram.com/xandyk/?hl=en">
+              <a href="https://www.instagram.com/sandyhkuan/">
                 <img className="social-account" src={Instagram} alt="" />
               </a>
               <a href="https://www.linkedin.com/in/sandykuan/">
